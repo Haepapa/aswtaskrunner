@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/Haepapa/aswtaskrunner/apps"
 	"fmt"
+
+	"github.com/Haepapa/aswtaskrunner/apps"
 )
 
 func main() {
-	fmt.Println("Starting aswtaskrunner...")
+	fmt.Println("Server awake, shutting down")
 }

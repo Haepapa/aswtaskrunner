@@ -9,9 +9,8 @@ import (
 	"net/http"
 )
 
-func Login(ip string, password string, device string) string{
+func Login(ip string, password string) string{
 
-    // If neither is set, exit with an error
     if password == "" {
         log.Fatal("login: Password is not set. Please set LOGIN_PASSWORD as an environment variable or provide it at build time.")
     }
